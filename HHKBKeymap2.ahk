@@ -23,13 +23,13 @@ sc07B & v:: {
 ; Ctrl + ] → 半角/全角
 ^]::Send("{vkF3sc029}")
 
-; HHKBキーバインド
+; HHKBキーバインド設定をインクルード
 #Include "hhkb2.ahk"
 
-; 対象外アプリの判定
+; Emacsキーバインドの対象外アプリを判定
 #HotIf !WinActive("ahk_exe xyzzy.exe") && !WinActive("ahk_exe ttermpro.exe")
 
-; Emacsキーバインド
+; Emacsキーバインド設定をインクルード
 #Include "emacs2.ahk"
 
 #HotIf

@@ -1,4 +1,4 @@
-; Emacs keymap (AutoHotKey V2мя)
+; Emacs Keymap (AutoHotKey v2.0мя)
 
 InstallKeybdHook()
 #UseHook
@@ -586,8 +586,8 @@ u:: {
 
 ^!z:: {
     if (m_IsEnabled())
-        MsgBox("AutoHotkey emacs keymap is Enabled.")
+        MsgBox("AutoHotkey v2.0 Emacs Keymap is Enabled.")
     else
-        MsgBox("AutoHotkey emacs keymap is Disabled.")
+        MsgBox("AutoHotkey v2.0 Emacs Keymap is Disabled.")
 }
 

@@ -11,10 +11,10 @@ if ProcessExist("HHKBKeymap2.exe") {
 ; 変換 → 半角/全角
 sc079::Send("{vkF3sc029}")
 
-; 対象外アプリの判定
+; Emacsキーバインドの対象外アプリを判定
 #HotIf !WinActive("ahk_exe xyzzy.exe") && !WinActive("ahk_exe ttermpro.exe")
 
-; Emacsキーバインド
+; Emacsキーバインド設定をインクルード
 #Include "emacs2.ahk"
 
 #HotIf
