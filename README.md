@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./HHKBKeymap.ico" alt="ロゴ">
+</p>
+
 # HHKB/Emacs Keyboard Layout Switcher
 
 英語配列キーボード（HHKB）と日本語配列キーボードを、**Windows の再起動なしで切り替えて使用するための AutoHotkey スクリプト**です。
